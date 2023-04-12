@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Folder Locker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Folder_Locker_jar</output-path>
+    <root id="archive" name="Folder Locker.jar">
+      <element id="module-output" name="Folder Locker" />
+    </root>
+  </artifact>
+</component>
