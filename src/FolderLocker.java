@@ -44,11 +44,11 @@ public class FolderLocker {
             int height,
             String installPath,
             String folderDirectory,
-            String passwordFileName,
+            String password_File_Name,
             String lockedIconPath) {
         INSTALLATION_PATH = installPath;
         FOLDER_PATH = folderDirectory;
-        FILE_NAME = passwordFileName;
+        FILE_NAME = password_File_Name;
         LOCKED_ICON_PATH = lockedIconPath;
         this.handler = new SecurityHandler(folderDirectory);
         frame.setTitle(title);
